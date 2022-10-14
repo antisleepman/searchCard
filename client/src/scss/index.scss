@@ -1,0 +1,17 @@
+@use "./clear.scss";
+@use "./input.scss";
+@use "./Cards.scss";
+@use "./cardmodal.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
